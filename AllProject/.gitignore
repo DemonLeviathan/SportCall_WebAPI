@@ -1,0 +1,86 @@
+# Общие исключения для всех ОС
+.DS_Store
+Thumbs.db
+
+# Системные файлы и конфигурации IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.dotSettings
+*.sln.DotSettings.user
+
+# Visual Studio Code workspace and launch settings
+.vscode/
+
+# Конфигурационные файлы Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Results
+bin/
+obj/
+out/
+*.dll
+*.exe
+
+# ASP.NET Specific
+appsettings*.json
+**/appsettings*.json
+**/*.log
+
+# NPM
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# React
+build/
+*.lock
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+*.log
+logs/
+*.tlog
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Dependency Caches
+node_modules/
+.pnp/
+.pnp.js
+
+# ASP.NET Artifacts
+wwwroot/lib/
+wwwroot/dist/
+wwwroot/build/
+
+# EF Core Migrations
+Migrations/
+
+# Publish artifacts
+publish/
+*.publish.*
+
+# Static website artifacts
+dist/
+
+# Tests
+*.csproj.user
+testResults/
+
+.docx
+.pdf
+.drawio
